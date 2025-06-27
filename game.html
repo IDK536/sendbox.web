@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <ul class="header">
+            <li><a class="logo" href="index.html"><img src="images/icn_white.png" alt="Иконка" class = "icn"></a></li>
+            <li><a class="head" href="game.html">Создать мир</a></li>
+            <li><a class="head">Загрузить мир</a></li>
+            <li><a class="head">Сохранить мир</a></li>
+            <li>
+                <a class="head" id="theme">Тёмная тема</a>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <div class="select_main"></div>
+
+    </main>
+        <div class="management_menu">
+            <button class="spawn_button" onclick='create("woad")'><img src="" alt=""></button>
+            <button class="spawn_button" onclick='create("stone")'><img src="" alt=""></button>
+            <button class="spawn_button" onclick='create("send")'><img src="" alt=""></button>
+            <button class="spawn_button" onclick=""><img src="" alt=""></button>
+            <button class="spawn_button" onclick=""><img src="" alt=""></button>
+            <button class="spawn_button" onclick=""><img src="" alt=""></button>
+            <button class="spawn_button" onclick=""><img src="" alt=""></button>
+            <button class="spawn_button" onclick=""><img src="" alt=""></button>
+            <button class="spawn_button" onclick=""><img src="" alt=""></button>
+            <button class="spawn_button" onclick=""><img src="" alt=""></button>
+            <button class="spawn_button" onclick=""><img src="" alt=""></button>
+        </div>
+    <footer>
+        <h3>Создатель: IDK</h3>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/matter-js@0.19.0/build/matter.min.js"></script>
+    <script src="game.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
